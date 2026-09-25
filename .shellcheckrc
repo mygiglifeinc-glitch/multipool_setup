@@ -1,0 +1,4 @@
+external-sources=true
+# Scripts source /etc/functions.sh and /etc/multipool.conf, which only exist on
+# an installed system, and share variables across sourced files.
+disable=SC1090,SC1091,SC2034
